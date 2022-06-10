@@ -67,10 +67,10 @@ loginByCode.onclick = function () {
                             <label for="msgCode">短信验证码</label>
                             <span id="msgCodeSpan"></span>
                         </div>
-                        <div>
+                        <div style="display: none">
                             <input type="text" class="ipt2" maxlength="6" id="msgCode" name="msgCode"
                                    placeholder="请输入验证码">
-                            <button type="button" class="btn" id="sendCodeBtn">发送验证码</button>
+                            <button type="button" class="btn" id="sendCodeBtn" >发送验证码</button>
                         </div>
                         <div>
                             <span id="loginMsg"></span>

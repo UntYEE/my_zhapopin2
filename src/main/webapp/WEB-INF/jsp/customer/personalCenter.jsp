@@ -84,7 +84,7 @@
                     </ul>
                     <ul class="rightLabel">
                         <li>
-                            <a href="${pageContext.request.contextPath}/resume/add">创建简历</a>
+                            <a href="${pageContext.request.contextPath}/resume/add" style="display: none">创建简历</a>
                         </li>
                     </ul>
                 </div>

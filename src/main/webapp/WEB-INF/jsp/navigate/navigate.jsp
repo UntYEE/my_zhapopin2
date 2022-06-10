@@ -22,11 +22,14 @@
                         <a href="${pageContext.request.contextPath}/login">上传简历</a>
                     </li>
                     <li>
+                        <a href="${pageContext.request.contextPath}/mail">发邮件</a>
+                    </li>
+                    <li>
                         <a href="${pageContext.request.contextPath}/login">我要找工作</a>
                         <img alt="" src="${pageContext.request.contextPath}/images/jkf_imgs/hot.svg">
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/login">我要招聘</a>
+                        <a href="${pageContext.request.contextPath}/qylogin">我要招聘</a>
                     </li>
                     <li>
                         <a href="${pageContext.request.contextPath}/login" class="clickBtn">登录</a>

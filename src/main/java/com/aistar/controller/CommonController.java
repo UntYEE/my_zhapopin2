@@ -19,6 +19,16 @@ public class CommonController {
         return "customer/login";
     }
 
+    @RequestMapping("/mail")
+    public String mail() {
+        return "customer/mail";
+    }
+
+    @RequestMapping("/qylogin")
+    public String qylogin() {
+        return "customer/qylogin";
+    }
+
     @RequestMapping("/register")
     public String register() {
         return "customer/register";

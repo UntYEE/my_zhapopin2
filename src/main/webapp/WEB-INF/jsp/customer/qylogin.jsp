@@ -3,7 +3,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <html>
 <head>
-    <title>用户注册</title>
+    <title>企业登录</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/register.css">
     <style>
         .lrcon .lrbox {
@@ -53,48 +53,10 @@
         <!--右边栏-->
         <div class="listInfo">
             <div class="lr-h">
-                <a href="" class="choose">手机注册</a>
-                <a href="${pageContext.request.contextPath}/customer/login" style="display: none">前往登录</a>
+                <a class="choose" id="loginByPassword">企业密码登录</a>
+                <a class="" id="loginByCode" style="display: none">验证码登录</a>
             </div>
-            <form id="signup">
-                <div>
-                    <label for="phoneIpt">手机号码</label>
-                    <span id="sp1"></span>
-                </div>
-                <div>
-                    <input type="text" maxlength="11" class="ipt1" id="phoneIpt" name="custTelno"
-                           placeholder="请输入手机号">
-                </div>
-                <div>
-                    <label for="passwordIpt">密码</label>
-                    <span id="sp3"></span>
-                </div>
-                <div>
-                    <input type="password" class="ipt1" maxlength="16" id="passwordIpt" name="custPassword"
-                           placeholder="可以包含数字、字母以及下划线，6-16位">
-                </div>
-                <div>
-                    <label for="rePwdIpt">确认密码</label>
-                    <span id="sp4"></span>
-                </div>
-                <div>
-                    <input type="password" class="ipt1" maxlength="16" id="rePwdIpt"
-                           placeholder="请确认密码">
-                </div>
-                <div style="display: none">
-                    <label for="codeIpt">短信验证码</label>
-                    <span id="sp2"></span>
-                </div>
-                <div style="display: none">
-                    <input type="text" class="ipt2" maxlength="6" id="codeIpt"
-                           placeholder="请输入验证码">
-                    <button type="button" class="btn" id="sendCodeBtn">发送验证码</button>
-                </div>
-                <div>
-                    <span id="registerMsg"></span>
-                    <button type="button" class="btn" id="registerBtn" disabled>注册</button>
-                </div>
-            </form>
+            <form id="signup"></form>
         </div>
     </div>
     <img class="lr-bm" src="${pageContext.request.contextPath}/images/jkf_imgs/bm.png" alt="">
@@ -102,5 +64,5 @@
 
 
 <script src="${pageContext.request.contextPath}/js/javaScript.form.js"></script>
-<script src="${pageContext.request.contextPath}/js/register.js"></script>
+<script src="${pageContext.request.contextPath}/js/login.js"></script>
 </body>

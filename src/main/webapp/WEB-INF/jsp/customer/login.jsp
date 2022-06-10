@@ -54,7 +54,7 @@
         <div class="listInfo">
             <div class="lr-h">
                 <a class="choose" id="loginByPassword">密码登录</a>
-                <a class="" id="loginByCode">验证码登录</a>
+                <a class="" id="loginByCode" style="display: none">验证码登录</a>
             </div>
             <form id="signup"></form>
         </div>
