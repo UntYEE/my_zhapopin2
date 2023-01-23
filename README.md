@@ -1,7 +1,7 @@
 # my_zhapopin
 
 #### 介绍
-招聘网站，防boss直聘的网站，可以在线修改简历，投递简历，架构是：springboot+mybatis+mybatis-plus+layui+mysql
+招聘网站，仿boss直聘的网站，可以在线修改简历，投递简历，架构是：springboot+mybatis+mybatis-plus+layui+mysql
 
 #### 软件架构
 软件架构说明
