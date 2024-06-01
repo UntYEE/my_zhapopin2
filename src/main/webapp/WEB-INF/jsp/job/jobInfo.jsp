@@ -14,17 +14,22 @@
 <%--搜索框--%>
 <div id="search_div">
     <div id="search_input">
-        <input type="text" placeholder="搜索职位/公司" id="searchContent">
-        <button id="searchBtn" type="button">搜索</button>
+        <input type="text" placeholder="搜索您感兴趣的职位/公司" id="searchContent">
+        <button id="searchBtn" type="button">点击搜索</button>
     </div>
     <div id="search_hot">
         <span>热门职位: </span>
         <a href="${pageContext.request.contextPath}/job/jobInfo?keywords=java">Java</a>
+        <a href="${pageContext.request.contextPath}/job/jobInfo?keywords=python">python</a>
         <a href="${pageContext.request.contextPath}/job/jobInfo?keywords=html">HTML</a>
         <a href="${pageContext.request.contextPath}/job/jobInfo?keywords=php">PHP</a>
         <a href="${pageContext.request.contextPath}/job/jobInfo?keywords=游戏测试">游戏测试</a>
         <a href="${pageContext.request.contextPath}/job/jobInfo?keywords=管理">管理</a>
         <a href="${pageContext.request.contextPath}/job/jobInfo?keywords=前端">web前端</a>
+        <a href="${pageContext.request.contextPath}/job/jobInfo?keywords=人工智能">人工智能</a>
+        <a href="${pageContext.request.contextPath}/job/jobInfo?keywords=C++">C++</a>
+        <a href="${pageContext.request.contextPath}/job/jobInfo?keywords=C">C</a>
+
     </div>
 </div>
 <%--条件筛选--%>
@@ -130,20 +135,44 @@
             <td>薪资</td>
             <td>发布时间</td>
         </tr>
+        <tr>
+            <td></td>
+            <td>测试工程师</td>
+            <td>Ten</td>
+            <td>北京</td>
+            <td>10—20k</td>
+            <td>2024.5.1</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>研发工程师</td>
+            <td>Ali</td>
+            <td>杭州</td>
+            <td>15—25k</td>
+            <td>2024.5.2</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>大数据分析工程师</td>
+            <td>Byte</td>
+            <td>北京</td>
+            <td>10—20k</td>
+            <td>2024.5.3</td>
+        </tr>
         </thead>
         <tbody id="jsContent">
-        <%--<tr>--%>
-        <%--<td>--%>
-        <%--<label>--%>
-        <%--<input type="checkbox" class="select">--%>
-        <%--</label>--%>
-        <%--</td>--%>
-        <%--<td>装配工</td>--%>
-        <%--<td>北京金绅商贸有限公司</td>--%>
-        <%--<td>杭州-江干区</td>--%>
-        <%--<td>0.6-1万/月</td>--%>
-        <%--<td>01-13</td>--%>
-        <%--</tr>--%>
+        <tr>
+        <td>
+        <label>
+        <input type="checkbox" class="select">
+        </label>
+        </td>
+        <td>装配工</td>
+        <td>北京金绅商贸有限公司</td>
+        <td>杭州-江干区</td>
+        <td>0.6-1万/月</td>
+        <td>01-13</td>
+        </tr>
         </tbody>
     </table>
     <%--分页--%>

@@ -27,7 +27,7 @@
     </div>
     <%--职位列表--%>
     <div id="index_vocationList">
-        <img id="listImg" src="${pageContext.request.contextPath}/images/jkf_imgs/chengxuyuan.jpg" alt="">
+        <img id="listImg" src="${pageContext.request.contextPath}/images/jkf_imgs/programmer.jpg" alt="">
         <ul id="index_showList">
             <li class="listrow">
                 <div>

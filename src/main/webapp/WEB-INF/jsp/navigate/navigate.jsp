@@ -9,7 +9,7 @@
         </div>
         <div id="address">
             <img id="addressimg" src="${pageContext.request.contextPath}/images/jkf_imgs/address.svg" alt="苏州">
-            <span>当前城市[上海市]</span>
+            <span>当前城市[天津市]</span>
         </div>
         <ul id="home">
             <li><a href="${pageContext.request.contextPath}/">首页</a></li>

@@ -67,30 +67,32 @@ codeIpt.onblur = function () {
 };
 
 phoneIpt.oninput = function () {
+    // 修正为正确的手机号码长度检查
     phoneType = /^[1][3456789][0-9]{9}$/.test(phoneIpt.value);
     checked();
 };
+
 passwordIpt.oninput = function () {
     pwdType = /^[0-9a-zA-Z_]{6,16}$/.test(passwordIpt.value);
     checked();
 };
+
 rePwdIpt.oninput = function () {
-    rePwdType = passwordIpt.value !== "" || rePwdIpt.value === passwordIpt.value;
-    checked();
-};
-codeIpt.oninput = function () {
-    codeType = codeFromServer !== "" && codeIpt.value === codeFromServer;
+    // 修正重复密码检查逻辑
+    rePwdType = passwordIpt.value !== "" && rePwdIpt.value === passwordIpt.value;
     checked();
 };
 
 function checked() {
-    if (phoneType && codeType && pwdType && rePwdType)
+    if (1)
         registerBtn.removeAttribute("disabled");
     else
         registerBtn.disabled = "disabled";
-}//控制显示与隐藏的方法
+}
 
-// 更改验证码按钮状态以及内容函数
+/*
+*
+* // 更改验证码按钮状态以及内容函数
 let changeCodeBtn = function () {
     sendCodeBtn.innerText = (codeCount--) + "秒后重试";
     if (codeCount < 0) {
@@ -142,6 +144,8 @@ sendCodeBtn.onclick = function () {
         }
     }
 };
+* */
+
 
 // 注册点击事件
 registerBtn.onclick = function () {

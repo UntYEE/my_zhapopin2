@@ -14,7 +14,7 @@ a {
 }
 
 select {
-    outline-color: #00d7c6;
+    outline-color: #7b9bc8; /* Changed from #00d7c6 to mid-depth blue */
     width: 100px;
     height: 30px;
 }
@@ -58,7 +58,7 @@ table thead {
 }
 
 .directory .choose {
-    background: #00d7c6;
+    background: #7b9bc8; /* Changed from #00d7c6 to mid-depth blue */
     color: #fff;
 }
 
@@ -106,7 +106,7 @@ table thead {
 .leftLabel li {
     cursor: default;
     padding: 10px;
-    border-bottom: 2px solid #00d7c6;
+    border-bottom: 2px solid #7b9bc8; /* Changed from #00d7c6 to mid-depth blue */
 }
 
 .describe {
@@ -130,7 +130,3 @@ table thead {
     text-align: left;
     padding-left: 20px;
 }
-
-
-
-

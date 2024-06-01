@@ -29,7 +29,6 @@
 
 /*=================================需要编辑路径的地方======================================*/
 
-
 body {
     color: #61687c;
 }
@@ -48,7 +47,7 @@ body {
 }
 
 #nav_bar .left_brief:hover {
-    border: 1px solid #00d7c6;
+    border: 1px solid #7b9bc8; /* Changed from #00d7c6 to mid-depth blue */
 }
 
 #nav_bar .left_brief > h3 {
@@ -75,26 +74,26 @@ body {
     margin: 0 5px;
     outline: none;
     cursor: pointer;
-    border: 1px solid #2ABCB9;
+    border: 1px solid #7b9bc8; /* Adjusted to match mid-depth blue theme */
 }
 
 .btn_box > button:first-child {
-    background-color: #00d7c6;
+    background-color: #7b9bc8; /* Changed from #00d7c6 to mid-depth blue */
     color: #fff;
 }
 
 .btn_box > button:last-child {
-    color: #00d7c6;
+    color: #7b9bc8; /* Changed from #00d7c6 to mid-depth blue */
     background-color: #fff;
 }
 
 .btn_box > button:first-child:hover {
-    background-color: #2ABCB9;
+    background-color: #4682b4; /* Changed to dark blue */
     color: #fff;
 }
 
 .btn_box > button:last-child:hover {
-    color: #2ABCB9;
+    color: #4682b4; /* Changed to dark blue */
     background-color: #f8f8f8;
 }
 
@@ -121,7 +120,7 @@ body {
 }
 
 #nav_bar .left_body > a:hover {
-    color: #00d7c6;
+    color: #7b9bc8; /* Changed from #00d7c6 to mid-depth blue */
 }
 
 /*====================================右侧模块=======================================*/

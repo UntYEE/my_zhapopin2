@@ -4,7 +4,7 @@
 
 .main {
     width: 1000px;
-    margin: auto
+    margin: auto;
 }
 
 .main > div {
@@ -32,7 +32,7 @@
 
 .companyContent .part h4 {
     padding-left: 10px;
-    border-left: 5px solid #00d7c6;
+    border-left: 5px solid #7b9bc8; /* 修改为中等深度蓝色 */
 }
 
 .companyContent .part .content label {
@@ -69,7 +69,6 @@
 
 .companyInfo .companyPic {
     width: 280px;
-
 }
 
 .headerInfo {
@@ -78,7 +77,7 @@
 }
 
 .green {
-    color: #00d7c6;
+    color: #7b9bc8; /* 修改为中等深度蓝色 */
 }
 
 .headerInfo p {
@@ -116,7 +115,7 @@
 .main .headerInfo .op2 button {
     width: 200px;
     height: 40px;
-    background-color: #00d7c6;
+    background-color: #7b9bc8; /* 修改为中等深度蓝色 */
     color: #fff;
     outline: none;
 }

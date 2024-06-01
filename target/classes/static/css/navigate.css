@@ -75,7 +75,7 @@
 
 /*index_head中所有的li的样式*/
 #index_head #logoInfo li a:hover {
-    color: #5dd5c8;
+    color: #b0c4de;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -120,7 +120,7 @@
 
 #index_head .loginPart .clickBtn {
     display: inline-block;
-    border: 1px solid #5dd5c8;
+    border: 1px solid #b0c4de;
     border-radius: 5px;
     padding: 3px 10px;
     background-color: #202329;
@@ -133,6 +133,6 @@
 
 /*登录注册按钮的样式*/
 #index_head .loginPart .clickBtn:hover {
-    color: #5dd5c8;
+    color: #b0c4de;
     transition: 0.5s;
 }

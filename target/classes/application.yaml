@@ -61,7 +61,7 @@ spring:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/zhaopin?serverTimezone=UTC&useUnicode=true&characterencoding=utf8
       username: root
-      password: root
+      password: SUPERage2003
       #数据库连接池的参数配置
       # 初始化连接数量
       initial-size: 5
